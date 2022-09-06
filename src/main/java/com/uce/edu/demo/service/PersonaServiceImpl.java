@@ -32,7 +32,7 @@ public class PersonaServiceImpl implements IPersonaService {
 	}
 
 	@Override
-	public Persona buscar(int id) {
+	public Persona buscarPorId(int id) {
 		// TODO Auto-generated method stub
 		return this.iPersonaJpaRepository.buscarId(id);
 	}
